@@ -1,0 +1,178 @@
+.menu {
+    width: 150%;
+    height: 6vh;
+    background-color: aquamarine;
+    display: flex;
+}
+
+ul,
+li {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #f7f7f9;
+    background-color: black;
+    transition: background-color 2s;
+}
+
+li:hover {
+    background-color: blue;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.contenedor_imagenes1:hover {
+    animation-name: imagon1;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imagon1 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+.contenedor_imagenes1:hover {
+    animation-name: imagon1;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imagon1 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+.contenedor_imagenes2{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.contenedor_imagenes2:hover {
+transform: scale(1.2);
+}
+
+
+.contenedor_imagenes3:hover {
+    animation-name: imagon3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imagon3 {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
+
+.contenedor_imagenes4:hover {
+    animation-name: imagon4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imagon4 {
+        from {
+            transform: skew(0deg, 0deg);
+        }
+        to {
+            transform: skew(20deg, 20deg);
+        }
+    }
+
+.contenedor_imagenes5:hover {
+    animation-name: imagon5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imagon5 {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to {
+        transform: rotate(360deg) scale(1.5);
+    }
+}
+
+.contenedor_imagenes6:hover{
+width: 300px;
+}
+
+.contenedor_imagenes7 {
+    transition: transform 0.5s ease;
+}
+
+.contenedor_imagenes7:hover {
+    transform: skewX(20deg);
+}
+
+.contenedor_imagenes8 {
+    transition: opacity 0.5s ease;
+}
+
+.contenedor_imagenes8:hover {
+    opacity: 0.5;
+}
+
+.contenedor_imagenes9:hover {
+    animation-name: escalon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes escalon {
+    0%, 100% {
+        transform: scale(1);
+        filter: blur(0px);
+    }
+    50% {
+        transform: scale(1.5);
+        filter: blur(2px);
+    }
+}
+.contenedor_imagenes10:hover {
+    animation-name: niidea;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes niidea {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+img{
+    width: 200px;
+    height: 200px;
+
+}
